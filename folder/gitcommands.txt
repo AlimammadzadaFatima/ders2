@@ -1,0 +1,51 @@
+yeni bir folder yaradin - mkdir foldername
+
+directory-deki butun folder ve fayllarin siyahisi - ls
+
+directorinin icindeki basqa bir directory-e kecid etmek - cd foldername
+
+repository yaradin - git init
+
+icine yeni bir text fayli elave edin - touch filname.txt
+
+notepadla fayli acmaq  - notepad filename.txt
+
+faylda deyisiklikler edin - git add .
+
+bu deyisiklikleri versiyalayin - git commit -m "message"
+
+yeni bir fayl daha elave deib bunu da versiyalayin  - touch newfile.txt
+
+ - git add .
+ - git commit -m "commit message"
+
+ butun commitleri gormek - git log
+ 
+daha sonra bir evvelki versiyaya qayidin  - git checkout commitname
+
+en son versiyaya qayitmaq istesem - git checkout master
+
+git branch - brnachlarin siyahisi
+
+git branch newbrancname
+
+git checkout newbrancname
+
+git checkout master
+
+git status
+
+git merge newbrancname
+
+
+
+=================================================
+
+yeni repo yaradin githubda
+
+git remote add origin repourl
+
+git push -u origin master
+
+
+
