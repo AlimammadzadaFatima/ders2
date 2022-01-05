@@ -1,0 +1,27 @@
+﻿@using yeniIl.Models
+@{
+    ViewData["Title"] = "Edit";
+}
+@model Setting
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>Edit Value</h1>
+        </div>
+        <div class="col-lg-8 mx-auto">
+            <form method="post" asp-action="edit">
+                <div class="form-group">
+                    <label asp-for="Value">Value</label>
+                    <input type="text" class="form-control" asp-for="Value" placeholder="Enter  Value">
+                    <span class="text-danger" asp-validation-for="Value"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <a asp-action="index" asp-controller="setting" class="btn btn-success">Back</a>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts{
+
+    @await Html.PartialAsync("_ScriptsValidationPartial")
+}

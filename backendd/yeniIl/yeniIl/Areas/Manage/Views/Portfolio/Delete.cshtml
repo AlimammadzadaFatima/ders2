@@ -1,0 +1,39 @@
+﻿@using yeniIl.Models
+@{
+    ViewData["Title"] = "Delete";
+}
+
+@model Portfolio
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col">Text</th>
+                        <th scope="col">Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.Title</td>
+                        <td>@Model.Text</td>
+                        <td></td>
+                        <td>
+                            <form asp-action="delete" method="post">
+                                <input name="Id" value="@Model.Id" type="hidden" />
+                                <button type="submit" class="btn  btn-danger">Delete</button>
+                            </form>
+                            <a asp-action="index" asp-route-id="@Model.Id" class="btn btn-primary">Back Portfolio Page</a>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+

@@ -1,0 +1,444 @@
+nav {
+  background-color: #2c3e50;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .container {
+  max-width: 1300px;
+}
+
+nav .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .container .row .col-4 a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.75em;
+}
+
+nav .container .row .col-8 ul {
+  margin-left: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 130px;
+  margin-top: 10px;
+}
+
+nav .container .row .col-8 ul li {
+  list-style: none;
+}
+
+nav .container .row .col-8 ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav .container .row .col-8 ul li a:hover {
+  color: #1abc9c;
+  cursor: pointer;
+}
+
+main {
+  font-family: 'Montserrat', sans-serif;
+}
+
+main section .bootstrap {
+  background-color: #1abc9c;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+main section .bootstrap .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 200px;
+  color: white;
+}
+
+main section .bootstrap .container .img {
+  width: 15rem;
+}
+
+main section .bootstrap .container .main-text h1 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+main section .bootstrap .container .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+main section .bootstrap .container .icon .line {
+  border-radius: 2px;
+  width: 125px;
+  height: 4px;
+  background-color: white;
+}
+
+main section .bootstrap .container .icon .star {
+  margin: 10px 15px;
+  font-size: 2rem;
+}
+
+main section .bootstrap .container .text p {
+  font-size: 1.5rem;
+}
+
+main section .portfolio {
+  padding-top: 75px;
+  background-color: white;
+}
+
+main section .portfolio .container {
+  max-width: 1300px;
+}
+
+main section .portfolio .container .row .col-12 h3 {
+  color: #2c3e50;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+main section .portfolio .container .row .col-12 .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+main section .portfolio .container .row .col-12 .icon .line {
+  border-radius: 2px;
+  width: 125px;
+  height: 4px;
+  background-color: #2c3e50;
+}
+
+main section .portfolio .container .row .col-12 .icon .star {
+  margin: 10px 15px;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+main section .portfolio .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+main section .portfolio .container .row .col-md-6 .hover {
+  position: absolute;
+  left: auto;
+  background-color: #1abc9ce0;
+  width: 400px;
+  height: 100%;
+  opacity: 0;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+main section .portfolio .container .row .col-md-6 .hover i {
+  font-size: 70px;
+  margin-left: 170px;
+  margin-top: 100px;
+  color: white;
+}
+
+main section .portfolio .container .row .col-md-6 .hover:hover {
+  opacity: 1;
+}
+
+main section .portfolio .container .row .col-md-6 img {
+  width: 400px;
+  border-radius: 7px;
+}
+
+main section .about {
+  background-color: #1abc9c;
+  width: 100%;
+  padding-bottom: 100px;
+  padding-top: 75px;
+}
+
+main section .about .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+main section .about .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 70px;
+}
+
+main section .about .container .row .col-12 h3 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+main section .about .container .row .col-12 .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+main section .about .container .row .col-12 .icon .line {
+  border-radius: 2px;
+  width: 125px;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+main section .about .container .row .col-12 .icon .star {
+  margin: 10px 15px;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+main section .about .container .row .col-6 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+}
+
+main section .about .container .row .col-12 .download {
+  text-align: center;
+  margin-top: 75px;
+}
+
+main section .about .container .row .col-12 .download a {
+  padding: 20px 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+}
+
+main section .about .container .row .col-12 .download a i {
+  margin-right: 7px;
+}
+
+main section .about .container .row .col-12 .download a:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+main section .about .container .row .col-12 .download a:hover i {
+  color: black;
+}
+
+main section .contact {
+  padding-top: 75px;
+  background-color: white;
+}
+
+main section .contact .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #2c3e50;
+}
+
+main section .contact .container .col-12 {
+  text-align: center;
+}
+
+main section .contact .container .col-12 h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+main section .contact .container .col-12 .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+main section .contact .container .col-12 .icon .line {
+  border-radius: 2px;
+  width: 125px;
+  height: 4px;
+  background-color: #2c3e50;
+}
+
+main section .contact .container .col-12 .icon .star {
+  margin: 10px 15px;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+footer .footer {
+  padding: 70px;
+  background-color: #2c3e50;
+}
+
+footer .footer .container {
+  max-width: 1300px;
+}
+
+footer .footer .container .row .col-lg-4 {
+  color: white;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer .container .row .col-lg-4 h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+footer .footer .container .row .col-lg-4 p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+}
+
+footer .footer .container .row .col-lg-4 p a {
+  color: #1abc9c;
+  text-decoration: underline;
+}
+
+footer .footer .container .row .col-lg-4 ul {
+  text-align: center;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 50px;
+}
+
+footer .footer .container .row .col-lg-4 ul li {
+  margin: 7px;
+  font-size: 1.25rem;
+  padding: 10px 15px;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+
+footer .footer .container .row .col-lg-4 ul li a {
+  color: white;
+  padding: 2px;
+}
+
+footer .footer .container .row .col-lg-4 ul li:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+footer .footer .container .row .col-lg-4 ul li:hover a {
+  color: #1a252f;
+}
+
+footer .copyright {
+  background-color: #1a252f;
+}
+
+footer .copyright .container p {
+  padding: 30px;
+  text-align: center;
+  color: white;
+  font-size: 0.875em;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

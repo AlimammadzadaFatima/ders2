@@ -1,0 +1,84 @@
+﻿@using yeniIl.ViewModels
+@model HomeViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css">
+    <!-- CSS only -->
+
+    <title>Start Bootstrap</title>
+
+</head>
+<body>
+    <!--Navbar hissesi-->
+    <header>
+        <nav class="fixed-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-4">
+                        <a href="">@Model.settings.FirstOrDefault(x=>x.Key=="HeaderName")?.Value</a>
+                    </div>
+                    <div class="col-8">
+                        <ul>
+                            <li> <a href="">PORTFOLIO</a> </li>
+                            <li> <a href="">ABOUT</a></li>
+                            <li> <a href="">CONTACT</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    @RenderBody();
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-lg-4 mb-5 mb-lg-0">
+                        <h4>LOCATION</h4>
+                        <p>
+                            2215 John Daniel Drive
+                            <br>
+                            Clark, MO 65243
+                        </p>
+                    </div>
+                    <div class=" col-lg-4 mb-5 mb-lg-0">
+                        <h4>AROUND THE WEB</h4>
+                        <ul>
+                            <li><a href=""> <i class="fab fa-facebook-f"></i> </a></li>
+                            <li><a href=""> <i class="fab fa-twitter"></i> </a></li>
+                            <li><a href=""> <i class="fab fa-linkedin-in"></i> </a></li>
+                            <li><a href=""><i class="fab fa-dribbble"></i> </a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-lg-4 mb-5 mb-lg-0">
+                        <h4>ABOUT FREELANCER</h4>
+                        <p>
+                            Freelance is a free to use, MIT licensed <br />
+                            Bootstrap theme created by <a href="">Start Bootstrap</a> .
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>Copyright © Website 2021</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
